@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: nginx05
-  annotaions:
+  annotations:
     xyz.com.ecommerce.roboshop/component: nginx
 spec:
   containers:
